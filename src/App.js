@@ -182,7 +182,7 @@ const App = () => {
             </div>
             <Icons IconName={FaMusic} />
           </div>
-     <div className="flex flex-col gap-5 overflow-auto container">
+     <div className="flex flex-col lg:h-full h-[300px] gap-5 overflow-auto container lg:pb-0 pb-8">
     <audio ref={audioRef} src={currentTrack}/>
       {SONGS.map((data) => (
         <div
