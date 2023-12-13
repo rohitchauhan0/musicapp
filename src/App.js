@@ -124,7 +124,7 @@ const App = () => {
       {/* music div  */}
       <div className=" w-full  lg:w-[60%] h-[80%]  px-6 lg:flex-row flex-col flex lg:justify-between items-center justify-center">
         {/* left div  */}
-        <div className=" w-[100%] lg:w-[40%] h-full bg2 rounded-2xl flex items-center justify-between flex-col -mt-8 p-6">
+        <div className=" w-[100%] lg:w-[40%] lg:h-full h-[500px] bg2 rounded-2xl flex items-center justify-between flex-col -mt-8 p-6">
           {/* upper part  */}
           <div className=" w-full flex items-center justify-between text-white">
             <Icons IconName={FaArrowLeft} />
