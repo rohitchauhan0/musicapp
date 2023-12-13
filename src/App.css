@@ -57,7 +57,7 @@ background: linear-gradient(156deg, rgba(18,19,20,0.8968837535014006) 24%, rgba(
 .custom-range {
   -webkit-appearance: none;
   appearance: none;
-  width: 300px;
+  width: 40vh;
   height: 8px;
   border-radius: 5px;
   background: #ddd; /* Background color of the progress bar track */
