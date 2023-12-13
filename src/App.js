@@ -40,7 +40,15 @@ const App = () => {
   };
 
   useEffect(() => {
-    isPlaying? (audioRef.current.play()) : (audioRef.current.pause());
+    const songHandlePlayPause = async()=>{
+      try {
+        await isPlaying? (audioRef.current.play()) : (audioRef.current.pause());
+        
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    songHandlePlayPause()
   }, [currentTrack, isPlaying])
 
 
